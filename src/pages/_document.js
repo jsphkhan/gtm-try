@@ -19,7 +19,7 @@ export default function Document() {
         <NextScript />
         {/* GTM No Script */}
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P2SJ37K8"
-          height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+          height="0" width="0" style={{display: 'none', visibility: 'hidden' }}></iframe></noscript>
         {/* End GTM No Script */}
       </body>
     </Html>
