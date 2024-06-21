@@ -20,7 +20,7 @@ export default function Document() {
         <Main />
         <NextScript />
         <Script
-          src="https://www.googletagmanager.com/gtm.js?id=GTM-P2SJ37K8"
+          src="https://www.googletagmanager.com/gtm.js?id=GTM-P2SJ37K"
           strategy="afterInteractive"
         />
         {/* GTM No Script */}
