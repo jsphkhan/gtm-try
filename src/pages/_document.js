@@ -22,15 +22,6 @@ export default function Document() {
         <Script
           src="https://www.googletagmanager.com/gtm.js?id=GTM-P2SJ37K8"
           strategy="afterInteractive"
-          onReady={() => {
-            console.log('**** GTM Loaded ****');
-            window.dataLayer = window.dataLayer || [];
-            window.dataLayer.push({
-              event: 'gtm.js',
-              'gtm.start': new Date().getTime()
-            });
-          
-          }}
         />
         {/* GTM No Script */}
         {/* <noscript dangerouslySetInnerHTML={{
