@@ -1,0 +1,8 @@
+This is a demo project to try out Google Tag Manager Integration
+It uses  GoogleTagManager from '@next/third-parties/google' package
+
+I have created a Google Tag Manager account and container to test this app:
+https://tagmanager.google.com/#/container/accounts/6236365334/containers/188129135/workspaces/3 
+
+Demo App hosted on Vercel: https://gtm-try-mocha.vercel.app/
+I also did a Page Speed Insights test on the URL above
