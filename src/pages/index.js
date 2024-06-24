@@ -7,7 +7,8 @@ export default function Home() {
     window.dataLayer = window.dataLayer || [];
     window.dataLayer.push({
       event: 'clickEvent',
-      'gtm.start': new Date().getTime()
+      'gtm.start': new Date().getTime(),
+      'custom': 'some data'
     });
   }
   return (
