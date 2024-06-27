@@ -1,4 +1,4 @@
-// import { GoogleTagManager } from '@next/third-parties/google'
+import GoogleTagManager from '../components/GoogleTagManager';
 
 /**
  * Tag Manager Integrated from 
@@ -8,7 +8,7 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Component {...pageProps} />
-      {/* <GoogleTagManager gtmId="GTM-P2SJ37K8" /> */}
+      <GoogleTagManager gtmId="GTM-P2SJ37K8" />
     </>
   );
 }

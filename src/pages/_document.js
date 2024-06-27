@@ -1,5 +1,5 @@
 import { Html, Head, Main, NextScript } from "next/document";
-import { Partytown } from '@builder.io/partytown/react';
+// import { Partytown } from '@builder.io/partytown/react';
 // import Script from 'next/script';
 
 /**
@@ -16,7 +16,8 @@ export default function Document() {
           src="https://www.googletagmanager.com/gtm.js?id=GTM-P2SJ37K8"
           strategy="afterInteractive"
         /> */}
-        <Partytown debug={true} forward={['dataLayer.push', 'gtag']} />
+        
+        {/* <Partytown debug={true} forward={['dataLayer.push', 'gtag']} />
         <script type="text/partytown" src="https://www.googletagmanager.com/gtag/js?id=GTM-P2SJ37K8"></script>
         <script type="text/partytown" dangerouslySetInnerHTML={{
           __html: `
@@ -25,7 +26,7 @@ export default function Document() {
             gtag('js', new Date());
             gtag('config', 'GTM-P2SJ37K8');
           `
-        }} />
+        }} /> */}
       </Head>
       <body>
         <Main />
