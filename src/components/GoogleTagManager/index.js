@@ -14,7 +14,7 @@ export default function GoogleTagManager(props) {
     <>
       <Script
         id="_next-gtm-init"
-        strategy="beforeInteractive"
+        strategy="lazyOnload"
         dangerouslySetInnerHTML={{
           __html: `
       (function(w,l){
@@ -26,7 +26,7 @@ export default function GoogleTagManager(props) {
       />
       <Script
         id="_next-gtm"
-        strategy="beforeInteractive"
+        strategy="lazyOnload"
         data-ntpc="GTM"
         src={`https://www.googletagmanager.com/gtm.js?id=${gtmId}${gtmLayer}`}
       />
